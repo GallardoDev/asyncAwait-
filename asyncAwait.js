@@ -1,9 +1,9 @@
 function ordenarProducto(producto){
     return new Promise((resolve, reject) => {
-        console.log('Ordenando: '+ producto+ ' de freeCode.');
+        console.log('Ordenando: '+ producto+ ' de Circle.');
         setTimeout(() => {
             if(producto === 'tasa'){
-                resolve('Ordenando una tasa con logo de freeCode.');
+                resolve('Ordenando una tasa con logo de Circle.');
             }
             else{
                 reject('Este producto no esta disponble.');
